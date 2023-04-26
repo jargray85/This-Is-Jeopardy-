@@ -32,7 +32,9 @@ const Question = (props) => {
     const Loaded = () => {    
         return (
             <div className="question-container">
-                <img src={trebek}></img>
+                <div className="image-container">
+                    <img src={trebek}></img>
+                </div>
                 <h2>Let's Play!</h2>
                 <section className="question-button">
                     <button onClick={getQuestion}>Get Answer</button>

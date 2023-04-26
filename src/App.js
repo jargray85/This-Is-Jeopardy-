@@ -7,8 +7,8 @@ function App() {
   return (
     <div>
       <Header />
-      <Score />
       <Question />
+      <Score />
     </div>
   )
 }
