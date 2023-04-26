@@ -33,7 +33,7 @@ const Question = (props) => {
         return (
             <div className="question-container">
                 <div className="image-container">
-                    <img src={trebek}></img>
+                    <img src={trebek} alt='Alex Trebek'></img>
                 </div>
                 <h2>Let's Play!</h2>
                 <section className="question-button">
