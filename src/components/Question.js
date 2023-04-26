@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import trebek from "../images/trebek.png"
 
 const Question = (props) => {
 
@@ -31,14 +32,17 @@ const Question = (props) => {
     const Loaded = () => {    
         return (
             <div className="question-container">
+                <img src={trebek}></img>
                 <h2>Let's Play!</h2>
-                <section>
+                <section className="question-button">
                     <button onClick={getQuestion}>Get Answer</button>
                 </section>
-                <h3> Category: {question[0].category.title} </h3>
-                <h3> Points: {question[0].value} </h3>
-                <h3> Answer: {question[0].question} </h3>
-                <section>
+                <div className="question-h3-container">
+                    <h3> Category: {question[0].category.title} </h3> 
+                    <h3> Points: {question[0].value} </h3>
+                    <h3> Answer: {question[0].question} </h3>
+                </div>
+                <section className="answer-container">
                     <button onClick={toggleAnswer}>Get Question</button>
                 </section>
                 {showAnswer && <h3> {question[0].answer} </h3>}
