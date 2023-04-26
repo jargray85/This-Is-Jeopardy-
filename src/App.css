@@ -15,6 +15,7 @@ h1 {
   color: yellow;
   font-size: 5em;
   font-family: gyparody;
+  text-shadow: 4px 4px 4px #000;
 }
 
 .score-container {
@@ -26,15 +27,17 @@ h2 {
   flex-direction: column;
   color: yellow;
   font-size: 3em;
+  text-shadow: 4px 4px 4px #000;
 }
 
 .question-container {
   display: flex;
   align-items: center;
-  margin-top: 5em;
+  margin-top: 2em;
 }
 
 h3 {
+  text-align: center;
   display: flex;
   flex-direction: column;
   color: yellow;
@@ -43,9 +46,18 @@ h3 {
 img {
   height: 200px;
   display: flex;
+  border: 3px dotted yellow;
 }
 
 .question-container {
   display: flex;
   flex-direction: column;
+}
+
+button {
+  padding: 0.5em;
+  margin: 1em;
+  border: 3px solid yellow;
+  font-weight: bold;
+  background-color: lightblue;
 }

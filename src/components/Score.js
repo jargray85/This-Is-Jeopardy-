@@ -17,9 +17,9 @@ const Score = (props) => {
         <div className="score-container">
             <h2>Score: { score } </h2>
             <section>
-                <button onClick={addScore}>Increase</button>
                 <button onClick={subScore}>Decrease</button>
                 <button onClick={resetScore}>Reset</button>
+                <button onClick={addScore}>Increase</button>
             </section>
         </div>
     )
