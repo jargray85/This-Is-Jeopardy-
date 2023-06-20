@@ -4,7 +4,7 @@ import trebek from "../images/trebek.png"
 const Question = (props) => {
 
     // Random question API url
-    const url = "http://jservice.io/api/random"
+    const url = "https://jservice.io/api/random"
 
     // Set state
     const [question, setQuestion] = useState()
