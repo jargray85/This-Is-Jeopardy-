@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import trebek from "../images/trebek.png"
+import trebek from "../images/trebek-gif.gif"
 
 const Question = (props) => {
 
